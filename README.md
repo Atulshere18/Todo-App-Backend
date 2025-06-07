@@ -1,8 +1,7 @@
-Here is a complete **documentation** of your Node.js Task Management API, based on your current file structure and code:
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 Todo App-Backend/
@@ -17,7 +16,7 @@ Todo App-Backend/
 
 ---
 
-## 📄 index.js
+##  index.js
 
 ### Purpose
 
@@ -33,7 +32,7 @@ Sets up the Express server, configures middleware, mounts routes, and handles gl
 
 ---
 
-## 📄 routes/tasks.js
+##  routes/tasks.js
 
 ### Purpose
 
@@ -109,7 +108,7 @@ From `../data/tasks`:
 
 ---
 
-## 📄 data/tasks.js
+##  data/tasks.js
 
 ### Purpose
 
@@ -139,7 +138,7 @@ Manages an in-memory list of tasks. No database used.
 
 ---
 
-## 🧪 Example Task Object
+##  Example Task Object
 
 ```json
 {
@@ -151,7 +150,7 @@ Manages an in-memory list of tasks. No database used.
 
 ---
 
-## 🚀 How to Run
+##  How to Run
 
 1. Install dependencies (if any):
 
@@ -170,11 +169,3 @@ Manages an in-memory list of tasks. No database used.
 
 ---
 
-## ✅ Future Improvements (Suggestions)
-
-* Add a database (like MongoDB or PostgreSQL)
-* Implement validation using a library (e.g., Joi)
-* Add status field (e.g., `completed: true/false`)
-* Add authentication middleware
-
----
